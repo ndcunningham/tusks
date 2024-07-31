@@ -38,6 +38,5 @@
       "component": { "style": "scss" },
       "library": { "style": "scss", "linter": "eslint" }
     }
-  },
-  "nxCloudAccessToken": "Yjk4YWE0MzYtYWIxNi00MjM0LTlkMDgtYTM0MWFmYTRlNmZmfHJlYWQtd3JpdGU="
+  }
 }
