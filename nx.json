@@ -23,18 +23,8 @@
         "previewTargetName": "preview"
       }
     },
-    {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    },
-    {
-      "plugin": "@nx/jest/plugin",
-      "options": {
-        "targetName": "test"
-      }
-    }
+    { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } },
+    { "plugin": "@nx/jest/plugin", "options": { "targetName": "test" } }
   ],
   "defaultProject": "tusks",
   "generators": {
@@ -45,13 +35,9 @@
         "linter": "eslint",
         "bundler": "webpack"
       },
-      "component": {
-        "style": "scss"
-      },
-      "library": {
-        "style": "scss",
-        "linter": "eslint"
-      }
+      "component": { "style": "scss" },
+      "library": { "style": "scss", "linter": "eslint" }
     }
-  }
+  },
+  "nxCloudAccessToken": "Yjk4YWE0MzYtYWIxNi00MjM0LTlkMDgtYTM0MWFmYTRlNmZmfHJlYWQtd3JpdGU="
 }
